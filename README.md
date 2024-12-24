@@ -1,4 +1,20 @@
-# Project Name
+# Toon Tank Infrastructure
+
+An online multiplayer tank battle game built on AWS, designed to deliver a seamless gaming experience and a highly scalable backend architecture.
+
+Features:
+
+- Core Gameplay
+  - Supports real-time online multiplayer battles for engaging gameplay.
+  - Developed both client and server-side using Unreal Engine 5.
+- Backend Development
+  - Implements core systems such as user authentication (sign-up/sign-in), matchmaking, and room creation using Golang.
+  - Integrates GameLift FleetIQ for efficient game server deployment and cost optimization.
+- Cloud Architecture
+  - Designed a serverless architecture leveraging AWS services including Lambda Functions, API Gateway, DynamoDB, and RDS to ensure high availability and scalability.
+  - Employed Terraform for infrastructure-as-code (IaC), enabling consistent and automated multi-environment deployments.
+- CI/CD
+  - Built a CI/CD pipeline using GitHub Actions to streamline development workflows, ensure quick iterations, and automate deployment processes.
 
 ## Installation
 
@@ -24,4 +40,3 @@
   ```cmd
   terraform version
   ```
-
